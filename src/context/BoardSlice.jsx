@@ -15,7 +15,13 @@ const boardSlice = createSlice({
                 field = !field;
                 for (let j = 0; j < 8; j ++) {
                     field = !field;
-                    state.boardValues[i].push(field);
+                    if (i <= 2 && field) {
+                        state.boardValues[i].push(1);
+                    } else if (i >= 5 && field) {
+                        state.boardValues[i].push(2);
+                    } else {
+                        state.boardValues[i].push(field);
+                    }
                 }
             }
         },

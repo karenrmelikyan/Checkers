@@ -4,11 +4,8 @@ import Board from './components/board/Board';
 import './style.css'
 
 function App() {
-
     return (
-
-        <Board />
-
+         <Board />
     );
 }
 

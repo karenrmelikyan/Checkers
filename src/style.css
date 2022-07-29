@@ -1,17 +1,3 @@
-.field {
-    width: 60px;
-    height: 60px;
-    border-style: solid;
-    border-color: slateblue;
-}
-
-.backgroundWhite {
-    background-color: white;
-}
-.backgroundBlack {
-    background-color: black;
-}
-
 .list-list {
     display: flex;
     margin-top: -20px;
@@ -20,7 +6,23 @@
 .list-list-item {
     list-style: none;
 }
-
+.field {
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+}
+.backgroundWhite {
+    background-color: white;
+}
+.backgroundBlack {
+    background-color: black;
+}
+.backgroundBlue {
+    background-color: blue;
+}
+.backgroundRed {
+    background-color: red;
+}
 .center {
     width: 100vw;
     height: 100vh;
@@ -28,14 +30,21 @@
     align-items: center;
     justify-content: center;
 }
-
 .flexible-box {
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 5%;
 }
-
+.checker {
+    height: 60px;
+    width: 60px;
+    margin-top: 9px;
+    margin-left: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: grab;
+}
 .card {
     width: 240px;
     height: 380px;
@@ -47,3 +56,4 @@
     margin: 24px;
     cursor: grab;
 }
+
